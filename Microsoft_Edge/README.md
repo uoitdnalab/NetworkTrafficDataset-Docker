@@ -10,3 +10,4 @@ Before Running
 - Open the file `docker-compose.yml` and edit the line
 `/dev/null:/qemu_host_pty` replacing `/dev/null` with QEMU Monitor's
 PTY.
+- Run the command `touch /tmp/screenshot_from_qemu_msedge`

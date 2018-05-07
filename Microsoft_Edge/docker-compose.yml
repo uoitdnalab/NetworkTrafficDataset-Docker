@@ -7,3 +7,4 @@ services:
     volumes:
       - /dev/null:/qemu_host_pty
       - ./HelperContainer/captured_packets.pcap:/captured_packets.pcap
+      - /tmp/screenshot_from_qemu_msedge:/tmp/screenshot_from_qemu_msedge
