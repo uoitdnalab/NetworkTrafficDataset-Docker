@@ -1,0 +1,4 @@
+- Disable option "Always use Private Mode"
+- Allow traffic to/from 127.0.0.1:5000 to skip Tor proxy
+- Add Bookmark
+- Accept Self-Signed SSL Certificate

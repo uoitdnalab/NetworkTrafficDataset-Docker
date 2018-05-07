@@ -1,0 +1,8 @@
+version: '2'
+services:
+  isolated_torbrowser:
+    build: ./container__isolated_torbrowser
+    ports:
+      - "127.0.0.1:5901:5900"
+    stdin_open: true
+    tty: true
